@@ -1,0 +1,144 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "genre": ["Thriller", "Mystery"],
+        "description": "A psychological thriller about a woman's act of violence against her husband."
+      },
+      {
+        "id": 2,
+        "title": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "genre": ["Fiction", "Mystery"],
+        "description": "A coming-of-age story intertwined with a murder mystery."
+      },
+      {
+        "id": 3,
+        "title": "The Vanishing Half",
+        "author": "Brit Bennett",
+        "genre": ["Fiction", "Historical"],
+        "description": "The story of twin sisters whose lives diverge when one decides to pass as white."
+      },
+      {
+        "id": 4,
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "genre": ["Fantasy", "Philosophy"],
+        "description": "A library between life and death that allows one to explore different lives."
+      },
+      {
+        "id": 5,
+        "title": "The Invisible Life of Addie LaRue",
+        "author": "V.E. Schwab",
+        "genre": ["Fantasy", "Historical"],
+        "description": "A young woman makes a Faustian bargain to live forever but is forgotten by everyone."
+      },
+      {
+        "id": 6,
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "genre": ["Science Fiction", "Adventure"],
+        "description": "A lone astronaut must save Earth from disaster."
+      },
+      {
+        "id": 7,
+        "title": "The Guest List",
+        "author": "Lucy Foley",
+        "genre": ["Thriller", "Mystery"],
+        "description": "A wedding celebration turns deadly when a guest is found murdered."
+      },
+      {
+        "id": 8,
+        "title": "Anxious People",
+        "author": "Fredrik Backman",
+        "genre": ["Fiction", "Humor"],
+        "description": "A poignant story about a bank robbery gone wrong and the people involved."
+      },
+      {
+        "id": 9,
+        "title": "The Seven Husbands of Evelyn Hugo",
+        "author": "Taylor Jenkins Reid",
+        "genre": ["Fiction", "Historical"],
+        "description": "A reclusive Hollywood icon recounts her glamorous and scandalous life."
+      },
+      {
+        "id": 10,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "genre": ["Fantasy", "Mythology"],
+        "description": "A retelling of the life of Circe, the daughter of Helios."
+      },
+      {
+        "id": 11,
+        "title": "Daisy Jones & The Six",
+        "author": "Taylor Jenkins Reid",
+        "genre": ["Fiction", "Music"],
+        "description": "A fictional oral history of a rock band in the 1970s."
+      },
+      {
+        "id": 12,
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "genre": ["Fantasy", "Romance"],
+        "description": "A magical competition between two young illusionists."
+      },
+      {
+        "id": 13,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "genre": ["Fiction", "Philosophy"],
+        "description": "A shepherd's journey to discover his personal legend."
+      },
+      {
+        "id": 14,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "genre": ["Historical", "Fiction"],
+        "description": "A young girl in Nazi Germany finds solace in stealing books."
+      },
+      {
+        "id": 15,
+        "title": "Educated",
+        "author": "Tara Westover",
+        "genre": ["Memoir", "Biography"],
+        "description": "A memoir about a woman's quest for knowledge despite her upbringing."
+      },
+      {
+        "id": 16,
+        "title": "The Light We Lost",
+        "author": "Jill Santopolo",
+        "genre": ["Fiction", "Romance"],
+        "description": "A love story that spans years and continents."
+      },
+      {
+        "id": 17,
+        "title": "Big Little Lies",
+        "author": "Liane Moriarty",
+        "genre": ["Fiction", "Mystery"],
+        "description": "A story about murder, friendship, and the secrets we keep."
+      },
+      {
+        "id": 18,
+        "title": "The Giver of Stars",
+        "author": "Jojo Moyes",
+        "genre": ["Historical", "Fiction"],
+        "description": "A story of female friendship set in the 1930s."
+      },
+      {
+        "id": 19,
+        "title": "The Tattooist of Auschwitz",
+        "author": "Heather Morris",
+        "genre": ["Historical", "Fiction"],
+        "description": "A love story set against the backdrop of the Holocaust."
+      },
+      {
+        "id": 20,
+        "title": "The House in the Cerulean Sea",
+        "author": "TJ Klune",
+        "genre": ["Fantasy", "Adventure"],
+        "description": "A magical tale about a caseworker for magical children."
+      }
+    ]
+  }

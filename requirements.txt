@@ -1,0 +1,9 @@
+Flask
+requests
+python-dotenv
+numpy
+keras
+tensorflow
+google-generativeai
+gradio
+openai
