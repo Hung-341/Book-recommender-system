@@ -1,144 +1,1839 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "title": "The Silent Patient",
-        "author": "Alex Michaelides",
-        "genre": ["Thriller", "Mystery"],
-        "description": "A psychological thriller about a woman's act of violence against her husband."
-      },
-      {
-        "id": 2,
-        "title": "Where the Crawdads Sing",
-        "author": "Delia Owens",
-        "genre": ["Fiction", "Mystery"],
-        "description": "A coming-of-age story intertwined with a murder mystery."
-      },
-      {
-        "id": 3,
-        "title": "The Vanishing Half",
-        "author": "Brit Bennett",
-        "genre": ["Fiction", "Historical"],
-        "description": "The story of twin sisters whose lives diverge when one decides to pass as white."
-      },
-      {
-        "id": 4,
-        "title": "The Midnight Library",
-        "author": "Matt Haig",
-        "genre": ["Fantasy", "Philosophy"],
-        "description": "A library between life and death that allows one to explore different lives."
-      },
-      {
-        "id": 5,
-        "title": "The Invisible Life of Addie LaRue",
-        "author": "V.E. Schwab",
-        "genre": ["Fantasy", "Historical"],
-        "description": "A young woman makes a Faustian bargain to live forever but is forgotten by everyone."
-      },
-      {
-        "id": 6,
-        "title": "Project Hail Mary",
-        "author": "Andy Weir",
-        "genre": ["Science Fiction", "Adventure"],
-        "description": "A lone astronaut must save Earth from disaster."
-      },
-      {
-        "id": 7,
-        "title": "The Guest List",
-        "author": "Lucy Foley",
-        "genre": ["Thriller", "Mystery"],
-        "description": "A wedding celebration turns deadly when a guest is found murdered."
-      },
-      {
-        "id": 8,
-        "title": "Anxious People",
-        "author": "Fredrik Backman",
-        "genre": ["Fiction", "Humor"],
-        "description": "A poignant story about a bank robbery gone wrong and the people involved."
-      },
-      {
-        "id": 9,
-        "title": "The Seven Husbands of Evelyn Hugo",
-        "author": "Taylor Jenkins Reid",
-        "genre": ["Fiction", "Historical"],
-        "description": "A reclusive Hollywood icon recounts her glamorous and scandalous life."
-      },
-      {
-        "id": 10,
-        "title": "Circe",
-        "author": "Madeline Miller",
-        "genre": ["Fantasy", "Mythology"],
-        "description": "A retelling of the life of Circe, the daughter of Helios."
-      },
-      {
-        "id": 11,
-        "title": "Daisy Jones & The Six",
-        "author": "Taylor Jenkins Reid",
-        "genre": ["Fiction", "Music"],
-        "description": "A fictional oral history of a rock band in the 1970s."
-      },
-      {
-        "id": 12,
-        "title": "The Night Circus",
-        "author": "Erin Morgenstern",
-        "genre": ["Fantasy", "Romance"],
-        "description": "A magical competition between two young illusionists."
-      },
-      {
-        "id": 13,
-        "title": "The Alchemist",
-        "author": "Paulo Coelho",
-        "genre": ["Fiction", "Philosophy"],
-        "description": "A shepherd's journey to discover his personal legend."
-      },
-      {
-        "id": 14,
-        "title": "The Book Thief",
-        "author": "Markus Zusak",
-        "genre": ["Historical", "Fiction"],
-        "description": "A young girl in Nazi Germany finds solace in stealing books."
-      },
-      {
-        "id": 15,
-        "title": "Educated",
-        "author": "Tara Westover",
-        "genre": ["Memoir", "Biography"],
-        "description": "A memoir about a woman's quest for knowledge despite her upbringing."
-      },
-      {
-        "id": 16,
-        "title": "The Light We Lost",
-        "author": "Jill Santopolo",
-        "genre": ["Fiction", "Romance"],
-        "description": "A love story that spans years and continents."
-      },
-      {
-        "id": 17,
-        "title": "Big Little Lies",
-        "author": "Liane Moriarty",
-        "genre": ["Fiction", "Mystery"],
-        "description": "A story about murder, friendship, and the secrets we keep."
-      },
-      {
-        "id": 18,
-        "title": "The Giver of Stars",
-        "author": "Jojo Moyes",
-        "genre": ["Historical", "Fiction"],
-        "description": "A story of female friendship set in the 1930s."
-      },
-      {
-        "id": 19,
-        "title": "The Tattooist of Auschwitz",
-        "author": "Heather Morris",
-        "genre": ["Historical", "Fiction"],
-        "description": "A love story set against the backdrop of the Holocaust."
-      },
-      {
-        "id": 20,
-        "title": "The House in the Cerulean Sea",
-        "author": "TJ Klune",
-        "genre": ["Fantasy", "Adventure"],
-        "description": "A magical tale about a caseworker for magical children."
-      }
-    ]
-  }
+  "books": [
+    {
+      "id": 1,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A psychological thriller about a woman's act of violence against her husband."
+    },
+    {
+      "id": 2,
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "genre": [
+        "Fiction",
+        "Mystery"
+      ],
+      "description": "A coming-of-age story intertwined with a murder mystery set in the marshes of North Carolina."
+    },
+    {
+      "id": 3,
+      "title": "The Vanishing Half",
+      "author": "Brit Bennett",
+      "genre": [
+        "Fiction",
+        "Historical"
+      ],
+      "description": "The story of twin sisters whose lives diverge when one decides to pass as white."
+    },
+    {
+      "id": 4,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "genre": [
+        "Fantasy",
+        "Philosophy"
+      ],
+      "description": "A novel about a library that allows people to explore different versions of their lives."
+    },
+    {
+      "id": 5,
+      "title": "The Guest List",
+      "author": "Lucy Foley",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A wedding celebration on a remote island takes a dark turn when a guest is found dead."
+    },
+    {
+      "id": 6,
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "genre": [
+        "Fiction",
+        "Historical"
+      ],
+      "description": "A reclusive Hollywood icon recounts her glamorous and scandalous life story."
+    },
+    {
+      "id": 7,
+      "title": "The Invisible Life of Addie LaRue",
+      "author": "V.E. Schwab",
+      "genre": [
+        "Fantasy",
+        "Historical"
+      ],
+      "description": "A young woman makes a Faustian bargain to live forever but is forgotten by everyone she meets."
+    },
+    {
+      "id": 8,
+      "title": "Anxious People",
+      "author": "Fredrik Backman",
+      "genre": [
+        "Fiction",
+        "Humor"
+      ],
+      "description": "A poignant story about a bank robber who takes a group of strangers hostage at an apartment open house."
+    },
+    {
+      "id": 9,
+      "title": "Circe",
+      "author": "Madeline Miller",
+      "genre": [
+        "Fantasy",
+        "Mythology"
+      ],
+      "description": "A reimagining of the life of Circe, the enchantress from Greek mythology."
+    },
+    {
+      "id": 10,
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "genre": [
+        "Science Fiction"
+      ],
+      "description": "A lone astronaut must save Earth from disaster while dealing with an unexpected companion."
+    },
+    {
+      "id": 11,
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "genre": [
+        "Fiction",
+        "Romance"
+      ],
+      "description": "The complex relationship between two Irish teenagers as they navigate adulthood."
+    },
+    {
+      "id": 12,
+      "title": "Daisy Jones & The Six",
+      "author": "Taylor Jenkins Reid",
+      "genre": [
+        "Fiction",
+        "Historical"
+      ],
+      "description": "A fictional oral history of a famous 1970s rock band and their rise to fame."
+    },
+    {
+      "id": 13,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "genre": [
+        "Fantasy",
+        "Romance"
+      ],
+      "description": "A magical competition between two young illusionists unfolds in a mysterious circus."
+    },
+    {
+      "id": 14,
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "genre": [
+        "Fiction",
+        "Drama"
+      ],
+      "description": "The secrets of three women unravel as a murder investigation reveals dark truths."
+    },
+    {
+      "id": 15,
+      "title": "Eleanor Oliphant Is Completely Fine",
+      "author": "Gail Honeyman",
+      "genre": [
+        "Fiction",
+        "Humor"
+      ],
+      "description": "A socially awkward woman learns to navigate life and relationships."
+    },
+    {
+      "id": 16,
+      "title": "The Huntress",
+      "author": "Kate Quinn",
+      "genre": [
+        "Historical",
+        "Thriller"
+      ],
+      "description": "A WWII story about a female assassin on the hunt for a war criminal."
+    },
+    {
+      "id": 17,
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "Two sisters in France navigate love and survival during WWII."
+    },
+    {
+      "id": 18,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A story narrated by Death, focusing on a young girl in Nazi Germany."
+    },
+    {
+      "id": 19,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": [
+        "Memoir"
+      ],
+      "description": "A memoir about a woman's quest for knowledge, growing up in a strict and abusive household."
+    },
+    {
+      "id": 20,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": [
+        "Memoir"
+      ],
+      "description": "The former First Lady's deeply personal memoir about her life and journey."
+    },
+    {
+      "id": 21,
+      "title": "Homegoing",
+      "author": "Yaa Gyasi",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "The story of two half-sisters and their descendants across three hundred years."
+    },
+    {
+      "id": 22,
+      "title": "The Goldfinch",
+      "author": "Donna Tartt",
+      "genre": [
+        "Fiction",
+        "Literary"
+      ],
+      "description": "A boy's life is transformed by a tragic event and a stolen painting."
+    },
+    {
+      "id": 23,
+      "title": "A Man Called Ove",
+      "author": "Fredrik Backman",
+      "genre": [
+        "Fiction",
+        "Humor"
+      ],
+      "description": "A curmudgeonly old man finds his life transformed by new neighbors."
+    },
+    {
+      "id": 24,
+      "title": "The Tattooist of Auschwitz",
+      "author": "Heather Morris",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A love story set in a concentration camp during WWII."
+    },
+    {
+      "id": 25,
+      "title": "The Water Dancer",
+      "author": "Ta-Nehisi Coates",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A magical narrative about slavery, memory, and the power of family."
+    },
+    {
+      "id": 26,
+      "title": "The Giver of Stars",
+      "author": "Jojo Moyes",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A story about female librarians in 1930s Kentucky."
+    },
+    {
+      "id": 27,
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "genre": [
+        "Fiction",
+        "Drama"
+      ],
+      "description": "The intertwined lives of two families in suburban Ohio."
+    },
+    {
+      "id": 28,
+      "title": "Before the Coffee Gets Cold",
+      "author": "Toshikazu Kawaguchi",
+      "genre": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "description": "A unique story about time travel and the value of moments."
+    },
+    {
+      "id": 29,
+      "title": "The Overstory",
+      "author": "Richard Powers",
+      "genre": [
+        "Fiction",
+        "Literary"
+      ],
+      "description": "A sweeping narrative about the interconnected lives of trees and humans."
+    },
+    {
+      "id": 30,
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "genre": [
+        "Fantasy",
+        "Mythology"
+      ],
+      "description": "A retelling of the Iliad from the perspective of Patroclus."
+    },
+    {
+      "id": 31,
+      "title": "The Chain",
+      "author": "Adrian McKinty",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A mother must kidnap another child to save her own in this psychological thriller."
+    },
+    {
+      "id": 32,
+      "title": "The Institute",
+      "author": "Stephen King",
+      "genre": [
+        "Horror",
+        "Fantasy"
+      ],
+      "description": "A chilling story about a sinister institution for children with special talents."
+    },
+    {
+      "id": 33,
+      "title": "The Cabin at the End of the World",
+      "author": "Paul Tremblay",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "A family's vacation is interrupted by intruders with a terrifying ultimatum."
+    },
+    {
+      "id": 34,
+      "title": "Red, White & Royal Blue",
+      "author": "Casey McQuiston",
+      "genre": [
+        "Romance",
+        "Contemporary"
+      ],
+      "description": "A fake relationship between the First Son of the United States and a British prince turns into something real."
+    },
+    {
+      "id": 35,
+      "title": "The Priory of the Orange Tree",
+      "author": "Samantha Shannon",
+      "genre": [
+        "Fantasy",
+        "Epic"
+      ],
+      "description": "A standalone epic fantasy about a dragon, a queen, and the fate of the world."
+    },
+    {
+      "id": 36,
+      "title": "The Last Wish",
+      "author": "Andrzej Sapkowski",
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "description": "The first book in the Witcher series, introducing Geralt of Rivia."
+    },
+    {
+      "id": 37,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "genre": [
+        "Science Fiction",
+        "Comedy"
+      ],
+      "description": "A comedic sci-fi adventure through space following an unwitting human and his alien friend."
+    },
+    {
+      "id": 38,
+      "title": "It Ends with Us",
+      "author": "Colleen Hoover",
+      "genre": [
+        "Romance",
+        "Contemporary"
+      ],
+      "description": "A powerful love story that explores the complexities of relationships and domestic abuse."
+    },
+    {
+      "id": 39,
+      "title": "The Light We Lost",
+      "author": "Jill Santopolo",
+      "genre": [
+        "Romance",
+        "Contemporary"
+      ],
+      "description": "A love story that spans years, exploring the choices that define us."
+    },
+    {
+      "id": 40,
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "genre": [
+        "Historical",
+        "Mythology"
+      ],
+      "description": "A retelling of the Iliad from the perspective of Achilles' companion, Patroclus."
+    },
+    {
+      "id": 41,
+      "title": "A Court of Thorns and Roses",
+      "author": "Sarah J. Maas",
+      "genre": [
+        "Fantasy",
+        "Romance"
+      ],
+      "description": "A Beauty and the Beast retelling set in a magical world."
+    },
+    {
+      "id": 42,
+      "title": "The 5th Wave",
+      "author": "Rick Yancey",
+      "genre": [
+        "Science Fiction",
+        "Young Adult"
+      ],
+      "description": "A gripping tale of survival in a world invaded by aliens."
+    },
+    {
+      "id": 43,
+      "title": "We Were Liars",
+      "author": "E. Lockhart",
+      "genre": [
+        "Young Adult",
+        "Mystery"
+      ],
+      "description": "A twisty tale of love, tragedy, and friendship among a wealthy family."
+    },
+    {
+      "id": 44,
+      "title": "The Shadow of the Wind",
+      "author": "Carlos Ruiz Zafón",
+      "genre": [
+        "Historical",
+        "Mystery"
+      ],
+      "description": "A young boy's discovery of a forgotten book leads him into a dark mystery."
+    },
+    {
+      "id": 45,
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A psychological thriller centered around a woman's obsession with a couple she observes from the train."
+    },
+    {
+      "id": 46,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A woman goes missing on her wedding anniversary, revealing dark secrets."
+    },
+    {
+      "id": 47,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A journalist and a hacker investigate a decades-old disappearance."
+    },
+    {
+      "id": 48,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": [
+        "Memoir",
+        "Biography"
+      ],
+      "description": "A memoir about a woman's quest for knowledge, growing up in a strict and abusive household."
+    },
+    {
+      "id": 49,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": [
+        "Memoir"
+      ],
+      "description": "The former First Lady's deeply personal memoir about her life and journey."
+    },
+    {
+      "id": 50,
+      "title": "The Glass Castle",
+      "author": "Jeannette Walls",
+      "genre": [
+        "Memoir"
+      ],
+      "description": "A memoir of resilience and redemption, recounting a childhood in a dysfunctional family."
+    },
+    {
+      "id": 51,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "genre": [
+        "Fantasy",
+        "Romance"
+      ],
+      "description": "A magical competition between two young illusionists unfolds in a mysterious circus."
+    },
+    {
+      "id": 52,
+      "title": "Station Eleven",
+      "author": "Emily St. John Mandel",
+      "genre": [
+        "Science Fiction",
+        "Dystopian"
+      ],
+      "description": "A post-apocalyptic novel that follows a group of survivors after a pandemic wipes out civilization."
+    },
+    {
+      "id": 53,
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "The story of a blind French girl and a German soldier during WWII."
+    },
+    {
+      "id": 54,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A story narrated by Death, focusing on a young girl in Nazi Germany."
+    },
+    {
+      "id": 55,
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "An alternate history of the Underground Railroad as a real railway system."
+    },
+    {
+      "id": 56,
+      "title": "The Nickel Boys",
+      "author": "Colson Whitehead",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A powerful narrative about two boys sentenced to a brutal reform school."
+    },
+    {
+      "id": 57,
+      "title": "The Tattooist of Auschwitz",
+      "author": "Heather Morris",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A love story set in a concentration camp during WWII."
+    },
+    {
+      "id": 58,
+      "title": "Homegoing",
+      "author": "Yaa Gyasi",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "The story of two half-sisters and their descendants across three hundred years."
+    },
+    {
+      "id": 59,
+      "title": "A Little Life",
+      "author": "Hanya Yanagihara",
+      "genre": [
+        "Fiction",
+        "Literary"
+      ],
+      "description": "A story of friendship and trauma among a group of college friends."
+    },
+    {
+      "id": 60,
+      "title": "Pachinko",
+      "author": "Min Jin Lee",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A multigenerational saga about a Korean family in Japan."
+    },
+    {
+      "id": 61,
+      "title": "The Overstory",
+      "author": "Richard Powers",
+      "genre": [
+        "Fiction",
+        "Literary"
+      ],
+      "description": "A sweeping narrative about the interconnected lives of trees and humans."
+    },
+    {
+      "id": 62,
+      "title": "Life After Life",
+      "author": "Kate Atkinson",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A woman lives and dies repeatedly, experiencing different versions of her life."
+    },
+    {
+      "id": 63,
+      "title": "The Wind-Up Bird Chronicle",
+      "author": "Haruki Murakami",
+      "genre": [
+        "Fiction",
+        "Magical Realism"
+      ],
+      "description": "A surreal journey through a man's search for his missing wife."
+    },
+    {
+      "id": 64,
+      "title": "Kafka on the Shore",
+      "author": "Haruki Murakami",
+      "genre": [
+        "Fiction",
+        "Magical Realism"
+      ],
+      "description": "A teenage boy's journey interwoven with the story of an aging man."
+    },
+    {
+      "id": 65,
+      "title": "The Brief Wondrous Life of Oscar Wao",
+      "author": "Junot Díaz",
+      "genre": [
+        "Fiction",
+        "Magical Realism"
+      ],
+      "description": "A Dominican boy's life, marked by a family curse, in New Jersey."
+    },
+    {
+      "id": 66,
+      "title": "The Amazing Adventures of Kavalier & Clay",
+      "author": "Michael Chabon",
+      "genre": [
+        "Fiction",
+        "Magical Realism"
+      ],
+      "description": "A Dominican boy's life, marked by a family curse, in New Jersey."
+    },
+    {
+      "id": 67,
+      "title": "The Amazing Adventures of Kavalier & Clay",
+      "author": "Michael Chabon",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "The story of two Jewish cousins who create a popular comic book superhero during WWII."
+    },
+    {
+      "id": 68,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "genre": [
+        "Fiction",
+        "Historical"
+      ],
+      "description": "A tale of friendship and redemption set against the backdrop of a changing Afghanistan."
+    },
+    {
+      "id": 69,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": [
+        "Fiction",
+        "Philosophy"
+      ],
+      "description": "A shepherd's journey to realize his personal legend and find treasure."
+    },
+    {
+      "id": 70,
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "genre": [
+        "Young Adult",
+        "Romance"
+      ],
+      "description": "A poignant love story between two teenagers with cancer."
+    },
+    {
+      "id": 71,
+      "title": "The Perks of Being a Wallflower",
+      "author": "Stephen Chbosky",
+      "genre": [
+        "Young Adult",
+        "Coming-of-Age"
+      ],
+      "description": "A teenager navigates the highs and lows of adolescence through letters."
+    },
+    {
+      "id": 72,
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "genre": [
+        "Dystopian",
+        "Feminist"
+      ],
+      "description": "A chilling dystopian novel about a totalitarian society where women are subjugated."
+    },
+    {
+      "id": 73,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": [
+        "Dystopian",
+        "Science Fiction"
+      ],
+      "description": "A future where books are banned and 'firemen' burn any that are found."
+    },
+    {
+      "id": 74,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": [
+        "Dystopian",
+        "Political Fiction"
+      ],
+      "description": "A novel about a totalitarian regime that uses surveillance and manipulation."
+    },
+    {
+      "id": 75,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": [
+        "Dystopian",
+        "Science Fiction"
+      ],
+      "description": "A society driven by technological advancements and a caste system."
+    },
+    {
+      "id": 76,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "genre": [
+        "Post-Apocalyptic",
+        "Literary"
+      ],
+      "description": "A father and son's journey across a desolate America."
+    },
+    {
+      "id": 77,
+      "title": "Cloud Atlas",
+      "author": "David Mitchell",
+      "genre": [
+        "Fiction",
+        "Literary"
+      ],
+      "description": "A complex narrative woven through time, connecting different characters and stories."
+    },
+    {
+      "id": 78,
+      "title": "Americanah",
+      "author": "Chimamanda Ngozi Adichie",
+      "genre": [
+        "Fiction",
+        "Contemporary"
+      ],
+      "description": "A story of love and identity spanning Nigeria and America."
+    },
+    {
+      "id": 79,
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "genre": [
+        "Fiction",
+        "Romance"
+      ],
+      "description": "The complex relationship between two Irish teenagers as they navigate adulthood."
+    },
+    {
+      "id": 80,
+      "title": "The Girl with All the Gifts",
+      "author": "M.R. Carey",
+      "genre": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "description": "A unique take on the zombie apocalypse through the eyes of a gifted girl."
+    },
+    {
+      "id": 81,
+      "title": "The Cuckoo's Calling",
+      "author": "Robert Galbraith",
+      "genre": [
+        "Mystery",
+        "Crime"
+      ],
+      "description": "A private investigator investigates the death of a supermodel."
+    },
+    {
+      "id": 82,
+      "title": "Sharp Objects",
+      "author": "Gillian Flynn",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A journalist returns to her hometown to cover a series of murders."
+    },
+    {
+      "id": 83,
+      "title": "The Girl in the Window",
+      "author": "A. J. Finn",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "An agoraphobic woman believes she has witnessed a crime in her neighbor's house."
+    },
+    {
+      "id": 84,
+      "title": "Then She Was Gone",
+      "author": "Lisa Jewell",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A mother's search for her missing daughter leads her to unexpected revelations."
+    },
+    {
+      "id": 85,
+      "title": "The Couple Next Door",
+      "author": "Shari Lapena",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A couple's baby goes missing during a dinner party, revealing dark secrets."
+    },
+    {
+      "id": 86,
+      "title": "Behind Closed Doors",
+      "author": "B.A. Paris",
+      "genre": [
+        "Thriller",
+        "Psychological"
+      ],
+      "description": "A psychological thriller about a seemingly perfect marriage that hides dark secrets."
+    },
+    {
+      "id": 87,
+      "title": "The Woman in the Window",
+      "author": "A.J. Finn",
+      "genre": [
+        "Thriller",
+        "Psychological"
+      ],
+      "description": "An agoraphobic woman believes she witnesses a crime in her neighbor's home."
+    },
+    {
+      "id": 88,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": [
+        "Thriller",
+        "Psychological"
+      ],
+      "description": "A therapist tries to uncover the reasons behind a woman's violent act."
+    },
+    {
+      "id": 89,
+      "title": "The Chain",
+      "author": "Adrian McKinty",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A mother's desperate attempt to save her child by becoming part of a horrific chain."
+    },
+    {
+      "id": 90,
+      "title": "The Family Upstairs",
+      "author": "Lisa Jewell",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A woman discovers her family's dark past when she inherits a house."
+    },
+    {
+      "id": 91,
+      "title": "The Last House on Needless Street",
+      "author": "Catriona Ward",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "A psychological horror story about a man living in a secluded house."
+    },
+    {
+      "id": 92,
+      "title": "The Cabin at the End of the World",
+      "author": "Paul Tremblay",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "A family's vacation is interrupted by intruders with a terrifying ultimatum."
+    },
+    {
+      "id": 93,
+      "title": "Mexican Gothic",
+      "author": "Silvia Moreno-Garcia",
+      "genre": [
+        "Horror",
+        "Gothic"
+      ],
+      "description": "A young woman uncovers dark secrets in a mysterious house in 1950s Mexico."
+    },
+    {
+      "id": 94,
+      "title": "Final Girls",
+      "author": "Riley Sager",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A thriller about the last survivors of horrific massacres."
+    },
+    {
+      "id": 95,
+      "title": "The Other People",
+      "author": "C.J. Tudor",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A gripping thriller about a man searching for his missing daughter."
+    },
+    {
+      "id": 96,
+      "title": "The Whisper Man",
+      "author": "Alex North",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A chilling thriller about a father and son who become entangled in a series of murders."
+    },
+    {
+      "id": 97,
+      "title": "The Chain",
+      "author": "Adrian McKinty",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A mother must kidnap another child to save her own in this psychological thriller."
+    },
+    {
+      "id": 98,
+      "title": "The Hunting Party",
+      "author": "Lucy Foley",
+      "genre": [
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "A group of friends gather for New Year's Eve, but not everyone will make it to the new year."
+    },
+    {
+      "id": 99,
+      "title": "The Last Mrs. Parrish",
+      "author": "Liv Constantine",
+      "genre": [
+        "Thriller",
+        "Psychological"
+      ],
+      "description": "Amber Patterson is tired of being a nobody. She’s determined to become the wife of wealthy and charming Daphne Parrish. As she meticulously weaves herself into Daphne's life, she uncovers dark secrets that threaten to unravel everything. But in a world where appearances can be deceiving, the truth may be more dangerous than Amber ever anticipated."
+    },
+    {
+      "id": 100,
+      "title": "The Last Mrs. Parrish",
+      "author": "Liv Constantine",
+      "genre": [
+        "Thriller",
+        "Psychological"
+      ],
+      "description": "A woman seeks to steal the life of a wealthy socialite, but things don’t go as planned."
+    },
+    {
+      "id": 101,
+      "title": "Before We Were Strangers",
+      "author": "Renée Carlino",
+      "genre": [
+        "Romance",
+        "Contemporary"
+      ],
+      "description": "A chance encounter rekindles a love story that never fully ended."
+    },
+    {
+      "id": 102,
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A reclusive Hollywood icon recounts her glamorous and scandalous life."
+    },
+    {
+      "id": 103,
+      "title": "Daisy Jones & The Six",
+      "author": "Taylor Jenkins Reid",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A fictional oral history of a 1970s rock band and their rise to fame."
+    },
+    {
+      "id": 104,
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "genre": [
+        "Fiction",
+        "Contemporary"
+      ],
+      "description": "A story about murder, secrets, and the complexities of friendship among mothers."
+    },
+    {
+      "id": 105,
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "Two sisters in WWII France navigate the war's dangers in different ways."
+    },
+    {
+      "id": 106,
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "genre": [
+        "Fiction",
+        "Mystery"
+      ],
+      "description": "A coming-of-age story intertwined with a murder mystery in the marshes of North Carolina."
+    },
+    {
+      "id": 107,
+      "title": "Anxious People",
+      "author": "Fredrik Backman",
+      "genre": [
+        "Fiction",
+        "Humor"
+      ],
+      "description": "A poignant story about a failed bank robbery that brings a group of strangers together."
+    },
+    {
+      "id": 108,
+      "title": "The Invisible Life of Addie LaRue",
+      "author": "V.E. Schwab",
+      "genre": [
+        "Fantasy",
+        "Historical"
+      ],
+      "description": "A young woman makes a deal to live forever but is forgotten by everyone she meets."
+    },
+    {
+      "id": 109,
+      "title": "Circe",
+      "author": "Madeline Miller",
+      "genre": [
+        "Fantasy",
+        "Mythology"
+      ],
+      "description": "A retelling of the life of Circe, the daughter of Helios, in ancient Greece."
+    },
+    {
+      "id": 110,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "genre": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "description": "A woman explores alternate lives in a magical library that shows what could have been."
+    },
+    {
+      "id": 111,
+      "title": "A Man Called Ove",
+      "author": "Fredrik Backman",
+      "genre": [
+        "Fiction",
+        "Humor"
+      ],
+      "description": "A curmudgeonly old man finds his life changed by unexpected friendships."
+    },
+    {
+      "id": 112,
+      "title": "Eleanor Oliphant Is Completely Fine",
+      "author": "Gail Honeyman",
+      "genre": [
+        "Fiction",
+        "Contemporary"
+      ],
+      "description": "A socially awkward woman learns to navigate relationships and her past."
+    },
+    {
+      "id": 113,
+      "title": "The Rosie Project",
+      "author": "Graeme Simsion",
+      "genre": [
+        "Romance",
+        "Contemporary"
+      ],
+      "description": "A genetics professor designs a scientific survey to find a wife but finds love unexpectedly."
+    },
+    {
+      "id": 114,
+      "title": "The House in the Cerulean Sea",
+      "author": "TJ Klune",
+      "genre": [
+        "Fantasy",
+        "Children's"
+      ],
+      "description": "A magical story about a social worker and a mysterious orphanage."
+    },
+    {
+      "id": 115,
+      "title": "The Water Dancer",
+      "author": "Ta-Nehisi Coates",
+      "genre": [
+        "Historical",
+        "Fiction"
+      ],
+      "description": "A magical realism novel set in the time of slavery in the United States."
+    },
+    {
+      "id": 132,
+      "title": "Legend",
+      "author": "Marie Lu",
+      "genre": [
+        "Dystopian",
+        "Young Adult"
+      ],
+      "description": "In a dark future, two teens from opposite sides of the law must work together."
+    },
+    {
+      "id": 133,
+      "title": "The Maze Runner",
+      "author": "James Dashner",
+      "genre": [
+        "Dystopian",
+        "Adventure"
+      ],
+      "description": "A boy wakes up in a mysterious maze with no memory of how he got there."
+    },
+    {
+      "id": 134,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "genre": [
+        "Dystopian",
+        "Young Adult"
+      ],
+      "description": "In a future where children are forced to fight to the death, one girl fights for survival."
+    },
+    {
+      "id": 135,
+      "title": "Shatter Me",
+      "author": "Tahereh Mafi",
+      "genre": [
+        "Dystopian",
+        "Fantasy"
+      ],
+      "description": "A girl with a deadly touch struggles to find her place in a world that fears her."
+    },
+    {
+      "id": 136,
+      "title": "The Selection",
+      "author": "Kiera Cass",
+      "genre": [
+        "Dystopian",
+        "Romance"
+      ],
+      "description": "In a future society, a girl competes for the heart of a prince."
+    },
+    {
+      "id": 137,
+      "title": "An Ember in the Ashes",
+      "author": "Sabaa Tahir",
+      "genre": [
+        "Fantasy",
+        "Young Adult"
+      ],
+      "description": "A girl fights against a brutal regime while a soldier grapples with loyalty."
+    },
+    {
+      "id": 138,
+      "title": "Graceling",
+      "author": "Kristin Cashore",
+      "genre": [
+        "Fantasy",
+        "Young Adult"
+      ],
+      "description": "In a world where some people have special powers, one girl must find her own strength."
+    },
+    {
+      "id": 139,
+      "title": "Daughter of Smoke and Bone",
+      "author": "Laini Taylor",
+      "genre": [
+        "Fantasy",
+        "Young Adult"
+      ],
+      "description": "A girl with a mysterious past finds herself caught in a war between two worlds."
+    },
+    {
+      "id": 140,
+      "title": "The Darkest Minds",
+      "author": "Alexandra Bracken",
+      "genre": [
+        "Dystopian",
+        "Young Adult"
+      ],
+      "description": "After a mysterious disease kills most of America's children, those who survive develop powers."
+    },
+    {
+      "id": 141,
+      "title": "Red Queen",
+      "author": "Victoria Aveyard",
+      "genre": [
+        "Fantasy",
+        "Young Adult"
+      ],
+      "description": "In a world divided by blood, a girl discovers she has powers that could change everything."
+    },
+    {
+      "id": 142,
+      "title": "Fangirl",
+      "author": "Rainbow Rowell",
+      "genre": [
+        "Young Adult",
+        "Contemporary"
+      ],
+      "description": "A college freshman navigates new relationships while balancing her love for fan fiction."
+    },
+    {
+      "id": 143,
+      "title": "Simon vs. the Homo Sapiens Agenda",
+      "author": "Becky Albertalli",
+      "genre": [
+        "Young Adult",
+        "Contemporary"
+      ],
+      "description": "A gay teen navigates high school and identity while trying to find love."
+    },
+    {
+      "id": 144,
+      "title": "Aristotle and Dante Discover the Secrets of the Universe",
+      "author": "Benjamin Alire Sáenz",
+      "genre": [
+        "Young Adult",
+        "Coming-of-Age"
+      ],
+      "description": "Two Mexican-American boys form an unlikely friendship that explores identity and love."
+    },
+    {
+      "id": 145,
+      "title": "The Hate U Give",
+      "author": "Angie Thomas",
+      "genre": [
+        "Young Adult",
+        "Contemporary"
+      ],
+      "description": "A young girl witnesses a police shooting and fights for justice."
+    },
+    {
+      "id": 146,
+      "title": "They Both Die at the End",
+      "author": "Adam Silvera",
+      "genre": [
+        "Young Adult",
+        "Contemporary"
+      ],
+      "description": "Two boys receive a notification that they will die within the next 24 hours."
+    },
+    {
+      "id": 147,
+      "title": "The Five People You Meet in Heaven",
+      "author": "Mitch Albom",
+      "genre": [
+        "Fiction",
+        "Philosophy"
+      ],
+      "description": "A man learns about the impact of his life through five people he meets in the afterlife."
+    },
+    {
+      "id": 148,
+      "title": "Tuesdays with Morrie",
+      "author": "Mitch Albom",
+      "genre": [
+        "Non-Fiction",
+        "Memoir"
+      ],
+      "description": "A man reconnects with his college professor who is dying and learns life lessons."
+    },
+    {
+      "id": 149,
+      "title": "Wild",
+      "author": "Cheryl Strayed",
+      "genre": [
+        "Memoir",
+        "Adventure"
+      ],
+      "description": "A woman's journey of self-discovery as she hikes the Pacific Crest Trail alone."
+    },
+    {
+      "id": 150,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": [
+        "Non-Fiction",
+        "Memoir"
+      ],
+      "description": "The former First Lady shares her journey from childhood to the White House."
+    },
+    {
+      "id": 151,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": [
+        "Memoir",
+        "Non-Fiction"
+      ],
+      "description": "A woman grows up in a strict and abusive household in rural Idaho but eventually escapes to learn."
+    },
+    {
+      "id": 152,
+      "title": "The Glass Castle",
+      "author": "Jeannette Walls",
+      "genre": [
+        "Memoir",
+        "Non-Fiction"
+      ],
+      "description": "A memoir about a woman's unconventional childhood and her resilient spirit."
+    },
+    {
+      "id": 153,
+      "title": "Just Mercy",
+      "author": "Bryan Stevenson",
+      "genre": [
+        "Non-Fiction",
+        "Social Justice"
+      ],
+      "description": "A lawyer's fight to save the wrongfully condemned and the importance of justice."
+    },
+    {
+      "id": 154,
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "genre": [
+        "Non-Fiction",
+        "Biography"
+      ],
+      "description": "The story of a woman whose cancer cells were used for groundbreaking medical research."
+    },
+    {
+      "id": 155,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": [
+        "Non-Fiction",
+        "History"
+      ],
+      "description": "An exploration of the history of our species from the Stone Age to modern times."
+    },
+    {
+      "id": 156,
+      "title": "Born a Crime",
+      "author": "Trevor Noah",
+      "genre": [
+        "Memoir",
+        "Non-Fiction"
+      ],
+      "description": "The comedian shares stories of his childhood growing up in South Africa during apartheid."
+    },
+    {
+      "id": 157,
+      "title": "The Body Keeps the Score",
+      "author": "Bessel van der Kolk",
+      "genre": [
+        "Non-Fiction",
+        "Psychology"
+      ],
+      "description": "A psychiatrist explores how trauma affects the body and mind."
+    },
+    {
+      "id": 158,
+      "title": "How to Win Friends and Influence People",
+      "author": "Dale Carnegie",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "Timeless principles for building positive relationships and influencing others."
+    },
+    {
+      "id": 159,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to building good habits and breaking bad ones through small changes."
+    },
+    {
+      "id": 160,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A counterintuitive approach to living a good life and embracing challenges."
+    },
+    {
+      "id": 161,
+      "title": "You Are a Badass",
+      "author": "Jen Sincero",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A motivational book that inspires readers to embrace their potential."
+    },
+    {
+      "id": 162,
+      "title": "Girl, Stop Apologizing",
+      "author": "Rachel Hollis",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide for women to pursue their goals unapologetically."
+    },
+    {
+      "id": 163,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "genre": [
+        "Non-Fiction",
+        "Spirituality"
+      ],
+      "description": "A guide to spiritual enlightenment through mindfulness and living in the present."
+    },
+    {
+      "id": 164,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": [
+        "Fiction",
+        "Philosophy"
+      ],
+      "description": "A shepherd boy's journey to discover his personal legend and dreams."
+    },
+    {
+      "id": 165,
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A framework for personal and professional effectiveness based on universal principles."
+    },
+    {
+      "id": 166,
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "genre": [
+        "Non-Fiction",
+        "Psychology"
+      ],
+      "description": "A Holocaust survivor's reflections on finding meaning in life despite suffering."
+    },
+    {
+      "id": 167,
+      "title": "The Art of Happiness",
+      "author": "Dalai Lama",
+      "genre": [
+        "Non-Fiction",
+        "Philosophy"
+      ],
+      "description": "Insights on happiness from the perspective of Buddhist philosophy."
+    },
+    {
+      "id": 168,
+      "title": "Grit: The Power of Passion and Perseverance",
+      "author": "Angela Duckworth",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "An exploration of how perseverance can lead to success."
+    },
+    {
+      "id": 169,
+      "title": "The Gifts of Imperfection",
+      "author": "Brené Brown",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to embracing your imperfections and living a wholehearted life."
+    },
+    {
+      "id": 170,
+      "title": "Start with Why",
+      "author": "Simon Sinek",
+      "genre": [
+        "Non-Fiction",
+        "Business"
+      ],
+      "description": "A look at how great leaders inspire action by focusing on the 'why.'"
+    },
+    {
+      "id": 171,
+      "title": "Daring Greatly",
+      "author": "Brené Brown",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A book about embracing vulnerability to achieve courage and connection."
+    },
+    {
+      "id": 172,
+      "title": "Outliers: The Story of Success",
+      "author": "Malcolm Gladwell",
+      "genre": [
+        "Non-Fiction",
+        "Business"
+      ],
+      "description": "An exploration of the factors that contribute to high levels of success."
+    },
+    {
+      "id": 173,
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "genre": [
+        "Non-Fiction",
+        "Psychology"
+      ],
+      "description": "A deep dive into the two systems that drive the way we think."
+    },
+    {
+      "id": 174,
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "An exploration of how habits work and how they can be changed."
+    },
+    {
+      "id": 175,
+      "title": "Drive: The Surprising Truth About What Motivates Us",
+      "author": "Daniel H. Pink",
+      "genre": [
+        "Non-Fiction",
+        "Business"
+      ],
+      "description": "A look at what truly motivates people and how to harness that motivation."
+    },
+    {
+      "id": 176,
+      "title": "The 48 Laws of Power",
+      "author": "Robert Greene",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to gaining and maintaining power in social situations."
+    },
+    {
+      "id": 177,
+      "title": "The 5 AM Club",
+      "author": "Robin Sharma",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A morning routine for maximizing productivity and achieving personal greatness."
+    },
+    {
+      "id": 178,
+      "title": "The Untethered Soul",
+      "author": "Michael A. Singer",
+      "genre": [
+        "Non-Fiction",
+        "Spirituality"
+      ],
+      "description": "A guide to discovering inner peace and self-awareness."
+    },
+    {
+      "id": 179,
+      "title": "How to Be a Stoic",
+      "author": "Massimo Pigliucci",
+      "genre": [
+        "Non-Fiction",
+        "Philosophy"
+      ],
+      "description": "A modern interpretation of Stoic philosophy for everyday life."
+    },
+    {
+      "id": 180,
+      "title": "The 10X Rule",
+      "author": "Grant Cardone",
+      "genre": [
+        "Non-Fiction",
+        "Business"
+      ],
+      "description": "A guide to achieving success through massive action."
+    },
+    {
+      "id": 181,
+      "title": "You Are a Badass at Making Money",
+      "author": "Jen Sincero",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A motivational book focused on improving financial success."
+    },
+    {
+      "id": 182,
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "genre": [
+        "Non-Fiction",
+        "Business"
+      ],
+      "description": "A method for developing businesses and products through lean principles."
+    },
+    {
+      "id": 183,
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "genre": [
+        "Non-Fiction",
+        "Business"
+      ],
+      "description": "An exploration of how good companies become great."
+    },
+    {
+      "id": 184,
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "genre": [
+        "Non-Fiction",
+        "Business"
+      ],
+      "description": "A guide to entrepreneurship and business success."
+    },
+    {
+      "id": 185,
+      "title": "Essentialism: The Disciplined Pursuit of Less",
+      "author": "Greg McKeown",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to focusing on what truly matters in life."
+    },
+    {
+      "id": 186,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "genre": [
+        "Non-Fiction",
+        "Productivity"
+      ],
+      "description": "An exploration of the benefits of focused work in a distracted world."
+    },
+    {
+      "id": 187,
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "genre": [
+        "Non-Fiction",
+        "Memoir"
+      ],
+      "description": "A memoir about overcoming obstacles and pushing limits."
+    },
+    {
+      "id": 188,
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "genre": [
+        "Non-Fiction",
+        "Spirituality"
+      ],
+      "description": "A guide to personal freedom based on ancient Toltec wisdom."
+    },
+    {
+      "id": 189,
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "genre": [
+        "Non-Fiction",
+        "Philosophy"
+      ],
+      "description": "An ancient Chinese text on strategy, leadership, and warfare."
+    },
+    {
+      "id": 190,
+      "title": "The Miracle Morning",
+      "author": "Hal Elrod",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A morning routine that promises to transform your life."
+    },
+    {
+      "id": 191,
+      "title": "Rising Strong",
+      "author": "Brené Brown",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to embracing vulnerability and overcoming setbacks."
+    },
+    {
+      "id": 192,
+      "title": "The 12 Rules for Life",
+      "author": "Jordan B. Peterson",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "Life advice grounded in psychology and philosophy."
+    },
+    {
+      "id": 193,
+      "title": "Thinking in Bets",
+      "author": "Annie Duke",
+      "genre": [
+        "Non-Fiction",
+        "Psychology"
+      ],
+      "description": "A guide to decision-making using the principles of poker."
+    },
+    {
+      "id": 194,
+      "title": "The Compound Effect",
+      "author": "Darren Hardy",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to achieving success through small, consistent actions."
+    },
+    {
+      "id": 195,
+      "title": "Mindset: The New Psychology of Success",
+      "author": "Carol S. Dweck",
+      "genre": [
+        "Non-Fiction",
+        "Psychology"
+      ],
+      "description": "An exploration of how a growth mindset can lead to success."
+    },
+    {
+      "id": 196,
+      "title": "The Confidence Code",
+      "author": "Katty Kay and Claire Shipman",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to understanding and building confidence in women."
+    },
+    {
+      "id": 197,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "Strategies for building good habits and breaking bad ones."
+    },
+    {
+      "id": 198,
+      "title": "The Happiness Advantage",
+      "author": "Shawn Achor",
+      "genre": [
+        "Non-Fiction",
+        "Psychology"
+      ],
+      "description": "How a positive mindset can lead to success and happiness."
+    },
+    {
+      "id": 199,
+      "title": "The Art of Possibility",
+      "author": "Rosamund Stone Zander and Benjamin Zander",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "Transformative practices for achieving new possibilities in life."
+    },
+    {
+      "id": 200,
+      "title": "Feel the Fear and Do It Anyway",
+      "author": "Susan Jeffers",
+      "genre": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "description": "A guide to overcoming fear and taking action in life."
+    }
+  ]
+}
