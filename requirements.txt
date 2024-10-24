@@ -7,3 +7,6 @@ tensorflow
 google-generativeai
 gradio
 openai
+huggingface_hub
+transformers[torch]
+spacy

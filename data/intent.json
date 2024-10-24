@@ -1,0 +1,634 @@
+{
+    "intents": [
+      {
+        "intent": "Greeting",
+        "text": [
+          "Hi",
+          "Hi there",
+          "Hola",
+          "Hello",
+          "Hello there",
+          "Hya",
+          "Hya there"
+        ],
+        "responses": [
+          "Hi human, please tell me your GeniSys user",
+          "Hello human, please tell me your GeniSys user",
+          "Hola human, please tell me your GeniSys user"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "GreetingUserRequest",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "GreetingResponse",
+        "text": [
+          "My user is Adam",
+          "This is Adam",
+          "I am Adam",
+          "It is Adam",
+          "My user is Bella",
+          "This is Bella",
+          "I am Bella",
+          "It is Bella"
+        ],
+        "responses": [
+          "Great! Hi <HUMAN>! How can I help?",
+          "Good! Hi <HUMAN>, how can I help you?",
+          "Cool! Hello <HUMAN>, what can I do for you?",
+          "OK! Hola <HUMAN>, how can I help you?",
+          "OK! hi <HUMAN>, what can I do for you?"
+        ],
+        "extension": {
+          "function": "extensions.gHumans.updateHuman",
+          "entities": true,
+          "responses": [
+            "Hi %%HUMAN%%! How can I help?",
+            "Hi %%HUMAN%%, how can I help you?",
+            "Hello %%HUMAN%%, what can I do for you?",
+            "Hola %%HUMAN%%, how can I help you?",
+            "OK hi %%HUMAN%%, what can I do for you?"
+          ]
+        },
+        "context": {
+          "in": "GreetingUserRequest",
+          "out": "",
+          "clear": true
+        },
+        "entityType": "NA",
+        "entities": [
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 3,
+            "rangeTo": 4
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 2,
+            "rangeTo": 3
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 1,
+            "rangeTo": 2
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 2,
+            "rangeTo": 3
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 3,
+            "rangeTo": 4
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 2,
+            "rangeTo": 3
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 1,
+            "rangeTo": 2
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 2,
+            "rangeTo": 3
+          }
+        ]
+      },
+      {
+        "intent": "CourtesyGreeting",
+        "text": [
+          "How are you?",
+          "Hi how are you?",
+          "Hello how are you?",
+          "Hola how are you?",
+          "How are you doing?",
+          "Hope you are doing well?",
+          "Hello hope you are doing well?"
+        ],
+        "responses": [
+          "Hello, I am great, how are you? Please tell me your GeniSys user",
+          "Hello, how are you? I am great thanks! Please tell me your GeniSys user",
+          "Hello, I am good thank you, how are you? Please tell me your GeniSys user",
+          "Hi, I am great, how are you? Please tell me your GeniSys user",
+          "Hi, how are you? I am great thanks! Please tell me your GeniSys user",
+          "Hi, I am good thank you, how are you? Please tell me your GeniSys user",
+          "Hi, good thank you, how are you? Please tell me your GeniSys user"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "CourtesyGreetingUserRequest",
+          "clear": true
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "CourtesyGreetingResponse",
+        "text": [
+          "Good thanks! My user is Adam",
+          "Good thanks! This is Adam",
+          "Good thanks! I am Adam",
+          "Good thanks! It is Adam",
+          "Great thanks! My user is Bella",
+          "Great thanks! This is Bella",
+          "Great thanks! I am Bella",
+          "Great thanks! It is Bella"
+        ],
+        "responses": [
+          "Great! Hi <HUMAN>! How can I help?",
+          "Good! Hi <HUMAN>, how can I help you?",
+          "Cool! Hello <HUMAN>, what can I do for you?",
+          "OK! Hola <HUMAN>, how can I help you?",
+          "OK! hi <HUMAN>, what can I do for you?"
+        ],
+        "extension": {
+          "function": "extensions.gHumans.updateHuman",
+          "entities": true,
+          "responses": [
+            "Great %%HUMAN%%! How can I help?",
+            "Good %%HUMAN%%, how can I help you?",
+            "Cool %%HUMAN%%, what can I do for you?",
+            "OK %%HUMAN%%, how can I help you?",
+            "OK hi %%HUMAN%%, what can I do for you?"
+          ]
+        },
+        "context": {
+          "in": "GreetingUserRequest",
+          "out": "",
+          "clear": true
+        },
+        "entityType": "NA",
+        "entities": [
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 5,
+            "rangeTo": 6
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 4,
+            "rangeTo": 5
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 3,
+            "rangeTo": 4
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 4,
+            "rangeTo": 5
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 5,
+            "rangeTo": 6
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 4,
+            "rangeTo": 5
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 3,
+            "rangeTo": 4
+          },
+          {
+            "entity": "HUMAN",
+            "rangeFrom": 3,
+            "rangeTo": 4
+          }
+        ]
+      },
+      {
+        "intent": "CurrentHumanQuery",
+        "text": [
+          "What is my name?",
+          "What do you call me?",
+          "Who do you think I am?",
+          "What do you think I am?",
+          "Who are you talking to?",
+          "What name do you call me by?",
+          "Tell me my name"
+        ],
+        "responses": [
+          "You are <HUMAN>! How can I help?",
+          "Your name is  <HUMAN>, how can I help you?",
+          "They call you <HUMAN>, what can I do for you?",
+          "Your name is <HUMAN>, how can I help you?",
+          "<HUMAN>, what can I do for you?"
+        ],
+        "extension": {
+          "function": "extensions.gHumans.getCurrentHuman",
+          "entities": false,
+          "responses": [
+            "You are %%HUMAN%%! How can I help?",
+            "Your name is  %%HUMAN%%, how can I help you?",
+            "They call you %%HUMAN%%, what can I do for you?",
+            "Your name is %%HUMAN%%, how can I help you?",
+            "%%HUMAN%%, what can I do for you?"
+          ]
+        },
+        "context": {
+          "in": "",
+          "out": "CurrentHumanQuery",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "NameQuery",
+        "text": [
+          "What is your name?",
+          "What could I call you?",
+          "What can I call you?",
+          "What do your friends call you?",
+          "Who are you?",
+          "Tell me your name?"
+        ],
+        "responses": [
+          "You can call me Book Helper ",
+          "You may call me Book Helper",
+          "Call me Geni"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "RealNameQuery",
+        "text": [
+          "What is your real name?",
+          "What is your real name please?",
+          "What's your real name?",
+          "Tell me your real name?",
+          "Your real name?",
+          "Your real name please?",
+          "Your real name please?"
+        ],
+        "responses": [
+          "My name is GeniSys",
+          "GeniSys",
+          "My real name is GeniSys"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "TimeQuery",
+        "text": [
+          "What is the time?",
+          "What's the time?",
+          "Do you know what time it is?",
+          "Do you know the time?",
+          "Can you tell me the time?",
+          "Tell me what time it is?",
+          "Time"
+        ],
+        "responses": [
+          "One moment",
+          "One sec",
+          "One second"
+        ],
+        "extension": {
+          "function": "extensions.gTime.getTime",
+          "entities": false,
+          "responses": [
+            "The time is %%TIME%%",
+            "Right now it is %%TIME%%",
+            "It is around %%TIME%%"
+          ]
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "Thanks",
+        "text": [
+          "OK thank you",
+          "OK thanks",
+          "OK",
+          "Thanks",
+          "Thank you",
+          "That's helpful"
+        ],
+        "responses": [
+          "No problem!",
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "NotTalking2U",
+        "text": [
+          "I am not talking to you",
+          "I was not talking to you",
+          "Not talking to you",
+          "Wasn't for you",
+          "Wasn't meant for you",
+          "Wasn't communicating to you",
+          "Wasn't speaking to you"
+        ],
+        "responses": [
+          "OK",
+          "No problem",
+          "Right"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "UnderstandQuery",
+        "text": [
+          "Do you understand what I am saying",
+          "Do you understand me",
+          "Do you know what I am saying",
+          "Do you get me",
+          "Comprendo",
+          "Know what I mean"
+        ],
+        "responses": [
+          "Well I would not be a very clever AI if I did not would I?",
+          "I read you loud and clear!",
+          "I do in deed!"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entities": []
+      },
+      {
+        "intent": "Swearing",
+        "text": [
+          "fuck off",
+          "fuck",
+          "twat",
+          "shit"
+        ],
+        "responses": [
+          "Please do not swear",
+          "How rude",
+          "That is not very nice"
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "GoodBye",
+        "text": [
+          "Bye",
+          "Adios",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "CourtesyGoodBye",
+        "text": [
+          "Thanks, bye",
+          "Thanks for the help, goodbye",
+          "Thank you, bye",
+          "Thank you, goodbye",
+          "Thanks goodbye",
+          "Thanks good bye"
+        ],
+        "responses": [
+          "No problem, goodbye",
+          "Not a problem! Have a nice day",
+          "Bye! Come back again soon."
+        ],
+        "extension": {
+          "function": "",
+          "entities": false,
+          "responses": []
+        },
+        "context": {
+          "in": "",
+          "out": "",
+          "clear": false
+        },
+        "entityType": "NA",
+        "entities": []
+      },
+      {
+        "intent": "Search for Book",
+        "text": [
+          "Can you recommend a book?",
+          "I'm looking for a book",
+          "Find me a book to read",
+          "Search for a book"
+        ],
+        "responses": [
+          "Sure, let me find a book for you. What kind of book are you interested in?",
+          "Tell me the genre or author, and I’ll help you find a book."
+        ],
+        "extension": {
+          "function": "search_books_by_title"
+        }
+      },
+      {
+        "intent": "Ask for Book",
+        "text": [
+          "Do you have 'The Great Gatsby'?",
+          "Is '1984' available?",
+          "I want to read 'The Silent Patient'",
+          "Can you find me 'Circe'?"
+        ],
+        "responses": [
+          "Yes, we have '%%BOOK%%' by %%AUTHOR%% available. Would you like more details?",
+          "'%%BOOK%%' is available. How can I assist you further?",
+          "'%%BOOK%%' is written by %%AUTHOR%%. It's a great book!"
+        ],
+        "extension": {
+          "function": "search_books_by_title"
+        }
+      },
+          {
+        "intent": "Ask for Information About Book",
+        "text": [
+          "Tell me more about 'The Alchemist'",
+          "What is '1984' about?",
+          "Give me details about 'The Night Circus'",
+          "What is the plot of 'Pride and Prejudice'?"
+        ],
+        "responses": [
+          "'%%BOOK%%' by %%AUTHOR%% is about %%DESCRIPTION%%.",
+          "Here’s what I found about '%%BOOK%%': %%DESCRIPTION%%",
+          "'%%BOOK%%' is written by %%AUTHOR%%. Here’s a brief summary: %%DESCRIPTION%%"
+        ],
+        "extension": {
+          "function": "search_books_by_title"
+        }
+      },
+      {
+        "intent": "Recommendation Request",
+        "text": [
+          "Can you recommend a good book?",
+          "What book should I read next?",
+          "I need a book suggestion",
+          "Recommend me a book to read"
+        ],
+        "responses": [
+          "I recommend '%%BOOK%%' by %%AUTHOR%%. It's a great read!",
+          "You might enjoy '%%BOOK%%' by %%AUTHOR%%. Would you like more information?",
+          "Based on your preferences, I suggest '%%BOOK%%'. It's a popular book."
+        ],
+        "extension": {
+          "function": "search_books_by_genre"
+        }
+      },
+      {
+        "intent": "Genre Search",
+        "text": [
+          "Show me some mystery books",
+          "Find me a science fiction book",
+          "What are some good romance novels?",
+          "Can you recommend a fantasy book?"
+        ],
+        "responses": [
+          "Here are some popular %%GENRE%% books: %%BOOK%% by %%AUTHOR%%.",
+          "You might like these top %%GENRE%% books: %%BOOK%% by %%AUTHOR%%."
+        ],
+        "extension": {
+          "function": "search_books_by_genre"
+        }
+      },
+      {
+        "intent": "Author Search",
+        "text": [
+          "Find me books by J.K. Rowling",
+          "What books has George Orwell written?",
+          "Can you show me books by Paulo Coelho?",
+          "I want to read something by Stephen King"
+        ],
+        "responses": [
+          "Here are books by %%AUTHOR%%: %%BOOK%%.",
+          "You might enjoy these books by %%AUTHOR%%: %%BOOK%%.",
+          "I found these books written by %%AUTHOR%%."
+        ],
+        "extension": {
+          "function": "search_books_by_author"
+        }
+      },
+      {
+        "intent": "Discuss Book Genres",
+        "text": [
+          "I love reading mystery novels",
+          "Fantasy books are my favorite",
+          "I'm really into historical fiction",
+          "Science fiction books are the best!"
+        ],
+        "responses": [
+          "Mystery novels are thrilling! I can suggest a few for you if you're interested.",
+          "Fantasy books are full of adventure! Let me know if you'd like some recommendations.",
+          "Historical fiction is fascinating. Would you like me to recommend some?",
+          "Science fiction is awesome! Want me to find a book in that genre for you?"
+        ],
+        "extension": {
+          "function": "search_books_by_genre"
+        }
+      }
+    ]
+  }
